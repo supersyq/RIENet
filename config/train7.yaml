@@ -1,0 +1,57 @@
+exp_name: 7scenes
+
+model: RIENET
+dataset: 7scenes 
+model_path: ''
+dim: 8
+# -------------------------modelenet40-------------------
+rot_factor: 4
+gaussian_noise: False
+unseen: False
+
+# -------------------------icl_nuim----------------------
+max_angle: 45
+max_trans: 0.5
+data_file_test: ./data/test/icl_nuim.h5
+data_file: ./data/train/icl_nuim.h5
+
+# -------------------------7scenes-----------------------
+mode: train
+mag: 1
+workers: 4
+dataset_path: ./data/7scene
+categoryfile: ./data/categories/7scene_train.txt
+
+# --------------------------kitti-------------------------
+voxel_size: 0.3
+root: /test/kitti_dataset/sequences/
+data_list: ./data/kitti_list
+augment: 1.0
+
+
+# ----------------model hyper parameters------------------
+nn_margin: 0.5 
+loss_margin: 0.01 
+list_k1: [8,8,8] 
+list_k2: [8,8,8] 
+emb_dims: 256     
+n_iters: 3
+n_points: 2048
+n_subsampled_points: 1536
+batch_size: 2
+test_batch_size: 2
+epochs: 100
+use_sgd: False
+n_keypoints: 768
+lr: 0.001
+momentum: 0.9
+no_cuda: False
+seed: 1234
+start_epoch: 0
+lr_step: [25, 50, 75]
+
+# ------------------network training-----------------------
+resume: False
+
+# ------------------network testing------------------------
+eval: True

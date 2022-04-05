@@ -1,0 +1,58 @@
+exp_name: kitti
+
+model: RIENET
+dataset: kitti #change it for other datasets
+model_path: ''
+dim: 16
+workers: 8
+# -------------------------modelenet40-------------------
+rot_factor: 4
+gaussian_noise: False
+unseen: True
+
+# -------------------------icl_nuim----------------------
+max_angle: 45
+max_trans: 0.5
+data_file_test: ./data/test/icl_nuim.h5
+data_file: ./data/train/icl_nuim.h5
+clean: True  #change it
+
+# -------------------------7scenes-----------------------
+mode: train
+mag: 1
+dataset-path: ./data/7scene
+categoryfile: ./data/categories/7scene_train.txt
+
+# --------------------------kitti-------------------------
+voxel_size: 0.3
+root: /test/kitti_dataset/sequences/
+data_list: ./data/kitti_list
+augment: 1.0
+
+
+# ----------------model hyper parameters------------------
+nn_margin: 0.5  #change
+loss_margin: 0.0009 #change it for the other datastes
+list_k1: [32,32,32] #change it for the other datasets
+list_k2: [8,8,8] #change it for the other datasets
+emb_dims: 512        # change it for the other datasets
+n_iters: 3
+n_points: 2048 #2048 for other datasets
+n_subsampled_points: 2048 #1536 for other datasets
+batch_size: 2
+test_batch_size: 2
+epochs: 50 # 100 for other datasets
+use_sgd: False
+n_keypoints: 1024 #modelnet40： 256 others:768
+lr: 0.001
+momentum: 0.9
+no_cuda: False
+seed: 1234
+start_epoch: 0
+lr_step: [5,10,20]
+
+# ------------------network training-----------------------
+resume: False
+
+# ------------------network testing------------------------
+eval: True

@@ -1,0 +1,14 @@
+# ninja log v5
+1770	9659	1627737648863437000	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/grouping_int/grouping_int_cuda.o	ffbc8eedac42c667
+1731	10799	1627737648865270000	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/grouping/grouping_cuda.o	5472e8712031641d
+1804	10885	1627737649177247000	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/interpolation/interpolation_cuda.o	21ee12f44c1edb61
+1806	11001	1627737648866119000	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/sampling/sampling_cuda.o	f21ab8f22149d2a4
+1811	18515	1627738225338012600	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/featuredistribute/featuredistribute_cuda_kernel.o	3293eedeeb66bac8
+1705	18791	1627738225530011300	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/ballquery/ballquery_cuda_kernel.o	589cc0ba1761f4d1
+1804	18904	1627738225666010400	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/interpolation/interpolation_cuda_kernel.o	cf4a68a260d07657
+1730	18939	1627738225722010000	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/knnquery/knnquery_cuda_kernel.o	6f4c39b32f583418
+1769	18947	1627738225714010100	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/grouping/grouping_cuda_kernel.o	f3014aeb6840a9ab
+1803	19061	1627738225782009600	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/grouping_int/grouping_int_cuda_kernel.o	a8c52205227bddd
+1810	19109	1627738225826009300	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/labelstat/labelstat_cuda_kernel.o	db1c4a44d57e47f8
+1809	19457	1627738225950008500	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/sampling/sampling_cuda_kernel.o	7f1cf8c57ac307a7
+1682	29525	1627737668670992000	/test/Registration-experiments/aaai-registration/lib/pointops/build/temp.linux-x86_64-3.6/src/pointops_api.o	923bdd492645e51b
