@@ -1,5 +1,3 @@
-# RIENet
-Our code will be released in 31/3/2022.
 # Reliable Inlier Evaluation for Unsupervised Point Cloud Registration
 
 by Yaqi Shen, Le Hui, Haobo Jiang, Jin Xie and Jian Yang, details are in [paper](https://arxiv.org/pdf/2202.11292.pdf).
